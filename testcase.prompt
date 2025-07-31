@@ -1,0 +1,17 @@
+Can you generate an end-to-end test that:
+
+Opens https://www.saucedemo.com
+
+Logs in with username "standard_user" and password "secret_sauce"
+
+Verifies login by checking if URL contains 'inventory'
+
+Adds the first product to the cart
+
+Proceeds to checkout
+
+Fills the checkout form with first name "Suraj", last name "Jena", postal code "123456"
+
+Completes the order
+
+Verifies that the confirmation message says "Thank you for your order!
